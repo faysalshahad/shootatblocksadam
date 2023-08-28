@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    /*height: 100vh;*/
+    background: linear-gradient(
+        0deg,
+        rgb(17, 51, 161) 0%,
+        rgb(136, 34, 195) 100%
+    );
+}
+
+h1{
+    margin: 0%;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color:chartreuse;
+}
+
+#restartButton{
+    font-size: 2rem;
+    background: coral;
+    padding: 1rem;
+    margin: 0%;
+    font-weight: bold;
+}
